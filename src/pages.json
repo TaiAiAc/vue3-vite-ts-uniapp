@@ -7,22 +7,36 @@
   },
   "pages": [
     {
-      "path": "pages/tabBar/component/component",
+      "path": "pages/tab-bar/component/component",
       "style": {
         "navigationBarTitleText": "内置组件"
       }
     },
     {
-      "path": "pages/tabBar/API/API",
+      "path": "pages/tab-bar/API/API",
       "style": {
         "navigationBarTitleText": "接口"
       }
     },
     {
-      "path": "pages/tabBar/extUI/extUI",
+      "path": "pages/tab-bar/extUI/extUI",
       "style": {
         "navigationBarTitleText": "扩展组件"
       }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages/login",
+      "name": "login",
+      "pages": [
+        {
+          "path": "pages/main/index",
+          "style": {
+            "navigationBarTitleText": "登录"
+          }
+        }
+      ]
     }
   ],
   "tabBar": {
@@ -32,19 +46,19 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/tabBar/component/component",
+        "pagePath": "pages/tab-bar/component/component",
         "iconPath": "static/component.png",
         "selectedIconPath": "static/componentHL.png",
         "text": "内置组件"
       },
       {
-        "pagePath": "pages/tabBar/API/API",
+        "pagePath": "pages/tab-bar/API/API",
         "iconPath": "static/api.png",
         "selectedIconPath": "static/apiHL.png",
         "text": "接口"
       },
       {
-        "pagePath": "pages/tabBar/extUI/extUI",
+        "pagePath": "pages/tab-bar/extUI/extUI",
         "iconPath": "static/extui.png",
         "selectedIconPath": "static/extuiHL.png",
         "text": "扩展组件"
