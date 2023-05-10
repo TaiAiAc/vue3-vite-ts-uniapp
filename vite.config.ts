@@ -1,12 +1,14 @@
 import { defineConfig } from 'vite'
 import uni from '@dcloudio/vite-plugin-uni'
-import unocss from '@unocss/vite'
+import unocss from 'unocss/vite'
+import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
     alias: {
-      '@': '/src'
+      '@': resolve(process.cwd(), 'src'),
+      '@images': resolve(process.cwd(), 'src/assets/images')
     }
   },
   css: {

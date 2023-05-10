@@ -56,11 +56,9 @@
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3080120230428001",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3080120230428001",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3080120230428001",
-    "@unocss/preset-uno": "^0.51.12",
-    "@unocss/transformer-directives": "^0.51.12",
-    "@unocss/vite": "^0.51.12",
     "sass": "^1.62.0",
     "typescript": "^5.0.4",
+    "unocss": "^0.51.12",
     "vite": "^4.0.3"
   }
 }
