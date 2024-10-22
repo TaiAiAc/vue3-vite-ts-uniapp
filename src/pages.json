@@ -31,7 +31,7 @@
       "name": "login",
       "pages": [
         {
-          "path": "pages/main/index",
+          "path": "/login",
           "style": {
             "navigationBarTitleText": "登录"
           }
